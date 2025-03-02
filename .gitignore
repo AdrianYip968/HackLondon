@@ -30,3 +30,5 @@ __pycache__/
 # misc
 *.env
 ".env" 
+
+ngrok.yml

@@ -12,7 +12,7 @@ const PORT = process.env.PORT;
 const app = express();
 const httpServer = http.createServer(app);
 const io = new Server(httpServer, {
-  cors: { origin: CORS_ORIGIN_BASE_URL },
+  cors: { origin: "*" },
 });
 
 interface Progress {

@@ -1,1 +1,2 @@
-export const signalingServerUrl = "http://localhost:8080";//import.meta.env.VITE_SIGNALING_SERVER_BASE_URL as string;
+//export const signalingServerUrl = "http://localhost:8080";//import.meta.env.VITE_SIGNALING_SERVER_BASE_URL as string;
+export const signalingServerUrl = "https://bags-disease-locate-theaters.trycloudflare.com";//"4.tcp.eu.ngrok.io:10684"
